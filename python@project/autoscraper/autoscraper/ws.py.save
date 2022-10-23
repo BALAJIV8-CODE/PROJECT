@@ -1,0 +1,11 @@
+from autoscraper import AutoScraper
+import re
+
+#url = 'https://stackoverflow.com/questions/2081586/web-scraping-with-python'
+url = "https://www.randomlists.com/email-addresses"
+# We can add one or multiple candidates here.
+# You can also put urls here to retrieve urls.
+refefindall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)"
+scraper = AutoScraper()
+result = scraper.build(url, regex)
+print(result)

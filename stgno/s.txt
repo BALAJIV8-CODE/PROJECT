@@ -1,0 +1,2 @@
+this is secret text of the stenography file
+this file fot hiding the data inside in the image
